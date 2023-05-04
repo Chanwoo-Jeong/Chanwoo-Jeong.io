@@ -62,8 +62,9 @@ const MatchCardsGame = (props) => {
   return (
     <>
       <Wrapper>
+        브랜치 배포
         <Header
-          currentDifficulty={difficulty}
+          currentDifficulty={difficulty}    
           matchedArr={matchedArr}
           allReset={allReset}
           setIsDark={setIsDark}
